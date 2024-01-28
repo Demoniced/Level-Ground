@@ -1,0 +1,236 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background:rgb(102, 118, 138);
+     font-family: 'Oswald', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.first-section{
+     background:rgb(102, 118, 138);
+     color:white;
+     height:700px;
+    
+}
+.column{
+     display:flex;
+     flex-direction:column;
+     text-align:center;
+     
+     
+}
+.idk{
+     display:flex;
+     justify-content:center;
+}
+header{
+    
+     width:100%;
+}
+ul{
+     
+     list-style:none;
+     display:flex;
+     width:100%;
+}
+li{
+     padding:20px;
+     
+}
+.logo{
+     margin-left:35%;
+     padding:0;
+
+}
+.donate{
+     margin-left:40%;
+     
+}
+.donate button{
+     border-radius:5px;
+     height:40px;
+     width:100px;
+     background:white;
+}
+h1{
+     font-size:7rem;
+     margin-bottom:30px;
+}
+p{
+     width:70%;
+     align-self:center;
+     font-size:2rem;
+}
+.play{
+     text-decoration:none;
+     color:white;
+     font-size:2rem;
+     margin-top:2%;
+     
+}
+a i{
+     margin-right:20px;
+     font-size:3rem;
+}
+
+.sec-two{
+     display:flex;
+     background-color:white;
+     height:550px;
+     align-items:center;
+     flex-direction:column;
+     justify-content:center;
+     
+}
+.sec-two h2{
+     font-size:5rem;
+     margin-bottom:0;
+}
+.sec-two p{
+     width:40%;
+     margin-bottom:150px;
+     text-align:center;
+}
+img{
+     width:70px;
+}
+.sec-three{
+     background:rgb(219, 223, 226);
+     display:flex;
+    align-items:center;
+    height:700px;
+}
+.sub-sec-left,.sub-sec-right{
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+    align-items:center;
+     text-align:center;
+     
+}
+.sec-three img{
+     width:400px;
+    
+}
+h3{
+     font-size:2rem;
+     
+}
+.sec-three p,.sec-two p,.last-sec p{
+     font-size:1.7rem;
+     font-weight:300;
+}
+.sec-three button{
+     width:200px;
+     height:75px;
+     border:black solid 1px;
+     background:rgb(219, 223, 226);
+}
+.last-sec{
+     height:600px;
+     display:flex;
+     align-items:center;
+    justify-content:center;
+    background-color:white;
+}
+.last-sec section{
+     display:flex;
+     flex-direction:column;
+     align-items:center;
+     width:50%;
+     text-align:center;
+}
+.last-sec button{
+     width:200px;
+     height:75px;
+     border:black solid 1px;
+     background:white;
+     
+}
+h4{
+     font-size:3rem;
+     margin-bottom:0;
+}
+footer{
+     display:flex;
+     
+}
+.left-sec-foot{
+     align-self:flex-start;
+     padding:30px;
+}
+.right-sec-foot{
+     
+     margin-left:80%;
+     width:10%;
+}
+.left-sec-foot li{
+margin:0;
+padding:5px;
+width:60px;
+}
+.left-sec-foot ul{
+     margin:0;
+     padding:0;
+}
+
+.left-sec-foot a{
+     width:50px;
+     margin:0;
+     text-decoration:none;
+     color:white;
+     
+}
+.left-sec-foot h5{
+     margin-bottom:0;
+}
+.icon-row i{
+     font-size:30px;
+     padding:5px;
+     
+     
+}
+.icon-row{
+     flex-direction:row;
+     display:flex;
+}
+h6{
+     font-size:1.4rem;
+     margin-bottom:0;
+     margin-top:40px;
+}
